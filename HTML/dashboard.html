@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Dev Dashboard</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        github: {
+                            bg: '#0d1117',
+                            card: '#161b22',
+                            text: '#c9d1d9',
+                            muted: '#8b949e',
+                            green: '#2ea44f'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/css">
+        /* Standard CSS for balancing the stats bar, adding semantic rules */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: theme('colors.github.bg');
+            color: theme('colors.github.text');
+        }
+        
+        main article header h1 {
+            border-bottom: 2px solid theme('colors.github.green');
+            padding-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-github-card p-4 border-b border-gray-700">
+        <nav class="container mx-auto flex items-center justify-between">
+            <a href="#" class="text-2xl font-bold text-white flex items-center gap-2">
+                <span>DevProfile</span>
+                <span class="text-xs font-mono px-2 py-0.5 bg-gray-600 rounded">v0.1.0</span>
+            </a>
+            <div class="flex items-center gap-4 text-github-muted">
+                <a href="#projects" class="hover:text-white">Projects</a>
+                <a href="#blog" class="hover:text-white">Blog</a>
+                <button class="bg-github-green text-white px-4 py-1.5 rounded-md font-semibold text-sm">Follow</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto p-8">
+        <article class="prose prose-sm prose-invert max-w-none">
+            <header class="mb-8">
+                <h1 class="text-4xl font-extrabold text-white">Full-Stack Development Showcase</h1>
+                <p class="text-xl text-github-muted mt-2">Personal portfolio of completed projects, technical experiments, and continuous learning journey.</p>
+            </header>
+            
+            <section id="technologies" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-10">
+                <div class="bg-github-card p-6 rounded-lg border border-gray-700 shadow-xl transition hover:border-github-green">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 bg-gray-600 rounded-md"></div> <h2 class="text-lg font-semibold text-white">Back-end Mastery</h2>
+                    </div>
+                    <p class="text-github-muted text-sm">Leveraging C++, Java, Node.js, and Python to build robust API systems, services, and core data structures.</p>
+                    <div class="flex gap-2 mt-4 text-xs">
+                        <span class="px-2 py-1 bg-gray-700 rounded">Performance</span>
+                        <span class="px-2 py-1 bg-gray-700 rounded">Scalability</span>
+                    </div>
+                </div>
+
+                <div class="bg-github-card p-6 rounded-lg border border-gray-700 shadow-xl">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 bg-gray-600 rounded-md"></div>
+                        <h2 class="text-lg font-semibold text-white">Front-end Excellence</h2>
+                    </div>
+                    <p class="text-github-muted text-sm">Designing interactive UIs with React and React Native. Styling semantically with HTML5, CSS3, and Tailwind.</p>
+                </div>
+                
+                <div class="bg-github-card p-6 rounded-lg border border-gray-700 shadow-xl">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 bg-gray-600 rounded-md"></div>
+                        <h2 class="text-lg font-semibold text-white">Infrastructure & Data</h2>
+                    </div>
+                    <p class="text-github-muted text-sm">Managing relational (PostgreSQL) and NoSQL (MongoDB) databases. Deploying securely with Docker and AWS.</p>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="mt-12 py-8 bg-github-card border-t border-gray-700">
+        <div class="container mx-auto text-center text-github-muted text-sm">
+            <p>&copy; 2024. Code Showcase curated with standard technology sets.</p>
+            <div class="mt-4 flex gap-4 justify-center">
+                <a href="https://github.com/yourusername" target="_blank">My GitHub</a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank">My LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
