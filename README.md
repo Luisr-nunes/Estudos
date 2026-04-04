@@ -1,64 +1,78 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/💻_Análise_e_Desenvolvimento_de_Sistemas-Cesar_School-0052CC?style=for-the-badge&logoColor=white" alt="Curso"/>
+# 📚 Estudos
 
-# 📚 Repositório de Estudos
-
-### Laboratório Pessoal de Práticas e Códigos
+### Exercícios e experimentos de cursos livres
 
 <br>
 
-![Status](https://img.shields.io/badge/Status-Em_Atualização_Contínua-2E8B57?style=flat-square)
-![Disciplina](https://img.shields.io/badge/Tema-Desenvolvimento_Full--Stack-8B6914?style=flat-square)
-![Instituição](https://img.shields.io/badge/Instituição-Cesar_School-A0522D?style=flat-square)
-![Formato](https://img.shields.io/badge/Formato-Multi--Tecnologias-4A4A4A?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
 <br>
 
-> *Espaço dedicado para anotações, testes de conceitos teóricos e práticos*
-> *desenvolvidos durante a jornada em Análise e Desenvolvimento de Sistemas.*
+![Tipo](https://img.shields.io/badge/Tipo-Cursos_Livres-4A4A4A?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Em_andamento-FFB300?style=flat-square)
+
+<br>
+
+> *Repositório pessoal de estudos com exercícios, experimentos e projetos práticos*
+> *desenvolvidos ao longo de cursos livres e aprendizado autodidata.*
 
 </div>
 
 ---
 
-## 📋 Sobre este Repositório
+## Sobre o Repositório
 
-Este é o meu "laboratório" de código. Aqui armazeno os exercícios, rascunhos de projetos e implementações rápidas focadas na consolidação de conhecimentos sobre linguagens, frameworks e arquiteturas de software. 
+Este repositório é um espaço de aprendizado contínuo, reunindo código escrito durante **cursos livres** em diversas linguagens e tecnologias. Cada pasta representa uma linguagem ou tecnologia explorada, com exercícios que evoluem do básico ao intermediário.
 
 ---
 
-## 📁 Organização dos Materiais
+## Estrutura
 
-| Pasta/Categoria | Tipo | Descrição |
+| Pasta | Linguagem / Tech | Descrição |
 |---|---|---|
-| `[Nome da pasta 1]` | 📁 Front-End | [Descrição dos estudos, ex: Testes em React/HTML/CSS] |
-| `[Nome da pasta 2]` | 📁 Back-End | [Descrição dos estudos, ex: APIs com Node.js] |
-| `[Nome da pasta 3]` | 📁 Lógica | [Exercícios gerais de lógica e estrutura de dados] |
+| `C++/` | C++ | Exercícios e fundamentos de C++ |
+| `HTML/` | HTML | Estruturação de páginas e marcação semântica |
+| `Java/` | Java | Exercícios de lógica e POO em Java |
+| `python/` | Python | Scripts e exercícios em Python |
+| `frontend/react-product-showcase/` | React + JS | Projeto showcase de produtos com React |
 
 ---
 
-## 🎯 Objetivo 
+## Distribuição por Linguagem
 
-Manter um histórico versionado do meu progresso acadêmico e técnico, facilitando a consulta rápida a lógicas já solucionadas e a evolução da escrita do meu código ao longo do tempo.
-
----
-
-## 📌 Como Navegar
-
-1. Os diretórios estão separados por assunto ou tecnologia.
-2. Cada pasta principal contém os arquivos fonte de testes específicos.
-3. Sinta-se à vontade para explorar os códigos e utilizar como referência.
+```
+JavaScript  ████████░░░░░░░░░░░░  30.2%
+HTML        ██████░░░░░░░░░░░░░░  22.0%
+Java        █████░░░░░░░░░░░░░░░  17.3%
+C++         █████░░░░░░░░░░░░░░░  16.0%
+Python      ████░░░░░░░░░░░░░░░░  14.5%
+```
 
 ---
 
-## 👨‍💻 Desenvolvedor
+## Tecnologias Exploradas
+
+- **C++** — Sintaxe, estruturas de dados e POO
+- **HTML** — Semântica, formulários e estrutura de páginas
+- **Java** — Lógica, orientação a objetos e estruturas
+- **Python** — Scripts, automações e exercícios gerais
+- **React** — Componentes, props, estado e interface de usuário
+
+---
+
+## Autor
 
 <div align="center">
 
 **Luis Nunes**
-Desenvolvedor Full-Stack · Análise e Desenvolvimento de Sistemas
-Cesar School
+Estudante de ADS — CESAR School
 
 [![GitHub](https://img.shields.io/badge/GitHub-Luisr--nunes-181717?style=flat-square&logo=github)](https://github.com/Luisr-nunes)
 
@@ -68,6 +82,6 @@ Cesar School
 
 <div align="center">
 
-*📚 Material de estudo e desenvolvimento acadêmico*
+*🚀 Aprendizado contínuo, um commit de cada vez.*
 
 </div>
