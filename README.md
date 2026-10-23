@@ -1,87 +1,55 @@
-<div align="center">
+# Estudos
 
-# 📚 Estudos
+<!-- badges -->
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
-### Exercícios e experimentos de cursos livres
+[Read in English](README.en.md)
 
-<br>
+Exercícios e pequenos projetos feitos durante cursos livres e estudo por conta própria, em várias linguagens.
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+## Conteúdo
 
-<br>
+| Pasta | Linguagem | Arquivo | O que pratica |
+| --- | --- | --- | --- |
+| `C++/` | C++ | `SinglyLinkedList.cpp` | Lista encadeada simples com classes e ponteiros |
+| `Java/` | Java | `BasicTaskManager.java` | Gerenciador de tarefas no terminal: classes, listas, datas e `Scanner` |
+| `Java/complexidade_algoritmica/` | Java | `O(1)`, `O(log n)`, `O(n)`, `O(n log n)`, `O(n²)` | Um exemplo de algoritmo para cada ordem de complexidade |
+| `python/` | Python | `data_cleaner_and_analyzer.py` | Gera transações simuladas, limpa os dados e calcula médias móveis e somas acumuladas, só com a biblioteca padrão |
+| `HTML/` | HTML, CSS, JS | `dashboard.html` | Painel pessoal de desenvolvedor em uma única página |
+| `frontend/react-product-showcase/` | React (JSX) | `index.HTML`, `app.jsx` | Vitrine de produtos com componentes, `useState`, `useEffect` e busca, carregando React, Babel e Tailwind por CDN |
 
-![Tipo](https://img.shields.io/badge/Tipo-Cursos_Livres-4A4A4A?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Em_andamento-FFB300?style=flat-square)
+## Como executar
 
-<br>
+```bash
+git clone https://github.com/Luisr-nunes/Estudos.git
+cd Estudos
 
-> *Repositório pessoal de estudos com exercícios, experimentos e projetos práticos*
-> *desenvolvidos ao longo de cursos livres e aprendizado autodidata.*
+# C++
+g++ -o lista C++/SinglyLinkedList.cpp && ./lista
 
-</div>
+# Java (exemplos de complexidade, Java 11+)
+java "Java/complexidade_algoritmica/O(n)_linear.java"
 
----
-
-## Sobre o Repositório
-
-Este repositório é um espaço de aprendizado contínuo, reunindo código escrito durante **cursos livres** em diversas linguagens e tecnologias. Cada pasta representa uma linguagem ou tecnologia explorada, com exercícios que evoluem do básico ao intermediário.
-
----
-
-## Estrutura
-
-| Pasta | Linguagem / Tech | Descrição |
-|---|---|---|
-| `C++/` | C++ | Exercícios e fundamentos de C++ |
-| `HTML/` | HTML | Estruturação de páginas e marcação semântica |
-| `Java/` | Java | Exercícios de lógica e POO em Java |
-| `python/` | Python | Scripts e exercícios em Python |
-| `frontend/react-product-showcase/` | React + JS | Projeto showcase de produtos com React |
-
----
-
-## Distribuição por Linguagem
-
-```
-JavaScript  ████████░░░░░░░░░░░░  30.2%
-HTML        ██████░░░░░░░░░░░░░░  22.0%
-Java        █████░░░░░░░░░░░░░░░  17.3%
-C++         █████░░░░░░░░░░░░░░░  16.0%
-Python      ████░░░░░░░░░░░░░░░░  14.5%
+# Python
+python python/data_cleaner_and_analyzer.py
 ```
 
----
+O `BasicTaskManager.java` declara `public class Main`, então o `javac` exige que o arquivo se chame `Main.java`. Para rodar sem alterar o repositório:
 
-## Tecnologias Exploradas
+```bash
+mkdir tmp && cp Java/BasicTaskManager.java tmp/Main.java
+javac -d tmp tmp/Main.java && java -cp tmp BasicTaskManager.Main
+```
 
-- **C++** — Sintaxe, estruturas de dados e POO
-- **HTML** — Semântica, formulários e estrutura de páginas
-- **Java** — Lógica, orientação a objetos e estruturas
-- **Python** — Scripts, automações e exercícios gerais
-- **React** — Componentes, props, estado e interface de usuário
+Para as páginas web, abra `HTML/dashboard.html` no navegador. A vitrine em React precisa de um servidor local, porque o Babel busca o `app.jsx` por requisição:
 
----
+```bash
+cd frontend/react-product-showcase
+npx serve .
+```
+
+O `index.HTML` referencia `App.jsx` com "A" maiúsculo, enquanto o arquivo se chama `app.jsx`; isso funciona no Windows, mas falha em sistemas que diferenciam maiúsculas e minúsculas.
 
 ## Autor
 
-<div align="center">
-
-**Luis Nunes**
-Estudante de ADS — CESAR School
-
-[![GitHub](https://img.shields.io/badge/GitHub-Luisr--nunes-181717?style=flat-square&logo=github)](https://github.com/Luisr-nunes)
-
-</div>
-
----
-
-<div align="center">
-
-*🚀 Aprendizado contínuo, um commit de cada vez.*
-
-</div>
+Luís Nunes — [GitHub](https://github.com/Luisr-nunes) · [LinkedIn](https://www.linkedin.com/in/luis-nunes-dev/)
